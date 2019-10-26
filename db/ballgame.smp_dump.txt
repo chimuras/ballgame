@@ -1,0 +1,31 @@
+
+State Machine - |sys_top|music_paly:u5|avconf:avc|mSetup_ST
+Name mSetup_ST.0000 mSetup_ST.0010 mSetup_ST.0001 
+mSetup_ST.0000 0 0 0 
+mSetup_ST.0001 1 0 1 
+mSetup_ST.0010 1 1 0 
+
+State Machine - |sys_top|FSM:u3|state
+Name state.OVER state.RUN state.IDLE 
+state.IDLE 0 0 0 
+state.RUN 0 1 1 
+state.OVER 1 0 1 
+
+State Machine - |sys_top|FSM:u3|ball_dir
+Name ball_dir.11 ball_dir.10 ball_dir.01 ball_dir.00 
+ball_dir.00 0 0 0 0 
+ball_dir.01 0 0 1 1 
+ball_dir.10 0 1 0 1 
+ball_dir.11 1 0 0 1 
+
+State Machine - |sys_top|FSM:u3|block_dir
+Name block_dir.11 block_dir.10 block_dir.01 block_dir.00 
+block_dir.00 0 0 0 0 
+block_dir.01 0 0 1 1 
+block_dir.10 0 1 0 1 
+block_dir.11 1 0 0 1 
+
+State Machine - |sys_top|keyboard:u1|state
+Name state.status_s0 
+state.status_makecode 0 
+state.status_s0 1 

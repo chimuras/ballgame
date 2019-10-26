@@ -1,0 +1,45 @@
+module vga_disp(clk,reset,enable, vcnt11,hcnt11,rgb);
+input clk;
+input reset;
+
+input [9:0] block1_x;
+input [9:0] block1_y;
+input [9:0] block2_x;
+input [9:0] block2_y;
+input [9:0] block3_x;
+input [9:0] block3_y;
+
+input [9:0] vcnt11;
+input [9:0] hcnt11;
+output reg [2:0] rgb;
+
+wire    [9:0] vcnt,hcnt;
+assign  vcnt = vcnt11[9:0];
+assign  hcnt = hcnt11[9:2];
+
+
+parameter [2:0] clbox = 3'b110; 
+parameter [2:0] clgrid = 3'b101;
+always @(posedge clk or posedge reset)
+   begin 
+			if (reset == 1) begin
+					rgb = 3'b000;
+			end
+          else if(enable) begin
+            if ((vcnt > 190 & vcnt < 201) & ((hcnt > 29 & hcnt < 38) | (hcnt > 46 & hcnt < 53) | hcnt == 60 | hcnt == 61 | hcnt == 68 | hcnt == 69 | (hcnt > 74 & hcnt < 83)))
+                  rgb <= clbox;
+               else if ((vcnt > 200 & vcnt < 211) & (hcnt == 30 | hcnt == 31 | hcnt == 38 | hcnt == 39 | hcnt == 45 | hcnt == 46 | hcnt == 53 | hcnt == 54 | (hcnt > 59 & hcnt < 64) | hcnt == 68 | hcnt == 69 | hcnt == 75 | hcnt == 76))
+                  rgb <= clbox;
+               else if ((vcnt > 210 & vcnt < 221) & (hcnt == 30 | hcnt == 31 | hcnt == 38 | hcnt == 39 | hcnt == 45 | hcnt == 46 | hcnt == 53 | hcnt == 54 | hcnt == 60 | hcnt == 61 | hcnt == 64 | hcnt == 65 | hcnt == 68 | hcnt == 69 | (hcnt > 74 & hcnt < 83)))
+                  rgb <= clbox;
+               else if ((vcnt > 220 & vcnt < 231) & (hcnt == 30 | hcnt == 31 | hcnt == 38 | hcnt == 39 | hcnt == 45 | hcnt == 46 | hcnt == 53 | hcnt == 54 | hcnt == 60 | hcnt == 61 | (hcnt > 65 & hcnt < 70) | hcnt == 75 | hcnt == 76))
+                  rgb <= clbox;
+               else if ((vcnt > 230 & vcnt < 241) & ((hcnt > 29 & hcnt < 38) | (hcnt > 46 & hcnt < 53) | hcnt == 60 | hcnt == 61 | hcnt == 68 | hcnt == 69 | (hcnt > 74 & hcnt < 83)))
+                  rgb <= clbox;
+               else
+                  rgb <= clgrid;
+			end 
+end
+
+endmodule 						
+        

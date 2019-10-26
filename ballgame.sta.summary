@@ -1,0 +1,405 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'sysclk'
+Slack : -10.453
+TNS   : -1040.075
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -5.176
+TNS   : -185.970
+
+Type  : Slow 1100mV 85C Model Setup 'music_paly:u5|music:music|clk_4hz'
+Slack : -3.588
+TNS   : -159.191
+
+Type  : Slow 1100mV 85C Model Setup 'music_paly:u5|avconf:avc|mI2C_CTRL_CLK'
+Slack : -3.213
+TNS   : -145.886
+
+Type  : Slow 1100mV 85C Model Setup 'music_paly:u5|avconf:avc|LUT_INDEX[1]'
+Slack : -3.050
+TNS   : -38.789
+
+Type  : Slow 1100mV 85C Model Setup 'keyboard:u1|clk_in'
+Slack : -2.954
+TNS   : -73.000
+
+Type  : Slow 1100mV 85C Model Setup 'music_paly:u5|music:music|clk_6m'
+Slack : -2.533
+TNS   : -35.435
+
+Type  : Slow 1100mV 85C Model Setup 'music_paly:u5|music:music|divider[0]'
+Slack : -0.566
+TNS   : -1.117
+
+Type  : Slow 1100mV 85C Model Hold 'music_paly:u5|avconf:avc|mI2C_CTRL_CLK'
+Slack : -0.302
+TNS   : -1.218
+
+Type  : Slow 1100mV 85C Model Hold 'music_paly:u5|music:music|clk_6m'
+Slack : -0.114
+TNS   : -0.268
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'keyboard:u1|clk_in'
+Slack : 0.250
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'music_paly:u5|avconf:avc|LUT_INDEX[1]'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'sysclk'
+Slack : 0.323
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'music_paly:u5|music:music|clk_4hz'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'music_paly:u5|music:music|divider[0]'
+Slack : 0.523
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'sysclk'
+Slack : -0.430
+TNS   : -165.236
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'music_paly:u5|avconf:avc|mI2C_CTRL_CLK'
+Slack : -0.394
+TNS   : -32.227
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'music_paly:u5|music:music|clk_4hz'
+Slack : -0.394
+TNS   : -30.692
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'keyboard:u1|clk_in'
+Slack : -0.394
+TNS   : -20.130
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'music_paly:u5|music:music|clk_6m'
+Slack : -0.394
+TNS   : -7.196
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'music_paly:u5|music:music|divider[0]'
+Slack : -0.394
+TNS   : -1.332
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'music_paly:u5|avconf:avc|LUT_INDEX[1]'
+Slack : 0.373
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'u5|Audio_Controller|Audio_Clock|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 8.606
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'sysclk'
+Slack : -10.652
+TNS   : -1013.323
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -5.069
+TNS   : -168.202
+
+Type  : Slow 1100mV 0C Model Setup 'music_paly:u5|music:music|clk_4hz'
+Slack : -3.549
+TNS   : -157.238
+
+Type  : Slow 1100mV 0C Model Setup 'music_paly:u5|avconf:avc|mI2C_CTRL_CLK'
+Slack : -3.137
+TNS   : -140.552
+
+Type  : Slow 1100mV 0C Model Setup 'music_paly:u5|avconf:avc|LUT_INDEX[1]'
+Slack : -2.992
+TNS   : -38.206
+
+Type  : Slow 1100mV 0C Model Setup 'keyboard:u1|clk_in'
+Slack : -2.838
+TNS   : -70.802
+
+Type  : Slow 1100mV 0C Model Setup 'music_paly:u5|music:music|clk_6m'
+Slack : -2.454
+TNS   : -34.320
+
+Type  : Slow 1100mV 0C Model Setup 'music_paly:u5|music:music|divider[0]'
+Slack : -0.522
+TNS   : -1.027
+
+Type  : Slow 1100mV 0C Model Hold 'music_paly:u5|avconf:avc|mI2C_CTRL_CLK'
+Slack : -0.216
+TNS   : -0.613
+
+Type  : Slow 1100mV 0C Model Hold 'music_paly:u5|music:music|clk_6m'
+Slack : -0.110
+TNS   : -0.267
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : -0.073
+TNS   : -0.073
+
+Type  : Slow 1100mV 0C Model Hold 'music_paly:u5|avconf:avc|LUT_INDEX[1]'
+Slack : 0.129
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'keyboard:u1|clk_in'
+Slack : 0.277
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'sysclk'
+Slack : 0.286
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'music_paly:u5|music:music|clk_4hz'
+Slack : 0.466
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'music_paly:u5|music:music|divider[0]'
+Slack : 0.475
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'sysclk'
+Slack : -0.405
+TNS   : -160.280
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'music_paly:u5|avconf:avc|mI2C_CTRL_CLK'
+Slack : -0.394
+TNS   : -32.143
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'music_paly:u5|music:music|clk_4hz'
+Slack : -0.394
+TNS   : -30.329
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'keyboard:u1|clk_in'
+Slack : -0.394
+TNS   : -20.665
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'music_paly:u5|music:music|clk_6m'
+Slack : -0.394
+TNS   : -7.161
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'music_paly:u5|music:music|divider[0]'
+Slack : -0.394
+TNS   : -1.304
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'music_paly:u5|avconf:avc|LUT_INDEX[1]'
+Slack : 0.390
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'u5|Audio_Controller|Audio_Clock|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 8.580
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'sysclk'
+Slack : -5.483
+TNS   : -555.843
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -4.321
+TNS   : -117.988
+
+Type  : Fast 1100mV 85C Model Setup 'music_paly:u5|avconf:avc|LUT_INDEX[1]'
+Slack : -1.831
+TNS   : -22.593
+
+Type  : Fast 1100mV 85C Model Setup 'music_paly:u5|music:music|clk_4hz'
+Slack : -1.799
+TNS   : -77.136
+
+Type  : Fast 1100mV 85C Model Setup 'music_paly:u5|avconf:avc|mI2C_CTRL_CLK'
+Slack : -1.721
+TNS   : -72.065
+
+Type  : Fast 1100mV 85C Model Setup 'keyboard:u1|clk_in'
+Slack : -1.527
+TNS   : -37.901
+
+Type  : Fast 1100mV 85C Model Setup 'music_paly:u5|music:music|clk_6m'
+Slack : -1.351
+TNS   : -17.805
+
+Type  : Fast 1100mV 85C Model Setup 'music_paly:u5|music:music|divider[0]'
+Slack : -0.098
+TNS   : -0.189
+
+Type  : Fast 1100mV 85C Model Hold 'music_paly:u5|avconf:avc|mI2C_CTRL_CLK'
+Slack : -0.301
+TNS   : -2.631
+
+Type  : Fast 1100mV 85C Model Hold 'music_paly:u5|music:music|clk_6m'
+Slack : -0.248
+TNS   : -1.161
+
+Type  : Fast 1100mV 85C Model Hold 'sysclk'
+Slack : -0.076
+TNS   : -0.147
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : -0.007
+TNS   : -0.007
+
+Type  : Fast 1100mV 85C Model Hold 'music_paly:u5|avconf:avc|LUT_INDEX[1]'
+Slack : 0.084
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'keyboard:u1|clk_in'
+Slack : 0.160
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'music_paly:u5|music:music|clk_4hz'
+Slack : 0.163
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'music_paly:u5|music:music|divider[0]'
+Slack : 0.249
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'sysclk'
+Slack : -0.156
+TNS   : -8.603
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'music_paly:u5|music:music|divider[0]'
+Slack : -0.039
+TNS   : -0.076
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'music_paly:u5|avconf:avc|mI2C_CTRL_CLK'
+Slack : -0.007
+TNS   : -0.018
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'music_paly:u5|music:music|clk_4hz'
+Slack : 0.037
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'keyboard:u1|clk_in'
+Slack : 0.093
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'music_paly:u5|music:music|clk_6m'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'music_paly:u5|avconf:avc|LUT_INDEX[1]'
+Slack : 0.442
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'u5|Audio_Controller|Audio_Clock|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 8.672
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'sysclk'
+Slack : -5.096
+TNS   : -487.425
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -3.739
+TNS   : -91.936
+
+Type  : Fast 1100mV 0C Model Setup 'music_paly:u5|avconf:avc|LUT_INDEX[1]'
+Slack : -1.614
+TNS   : -19.837
+
+Type  : Fast 1100mV 0C Model Setup 'music_paly:u5|music:music|clk_4hz'
+Slack : -1.602
+TNS   : -67.665
+
+Type  : Fast 1100mV 0C Model Setup 'music_paly:u5|avconf:avc|mI2C_CTRL_CLK'
+Slack : -1.498
+TNS   : -62.272
+
+Type  : Fast 1100mV 0C Model Setup 'keyboard:u1|clk_in'
+Slack : -1.317
+TNS   : -34.357
+
+Type  : Fast 1100mV 0C Model Setup 'music_paly:u5|music:music|clk_6m'
+Slack : -1.287
+TNS   : -16.387
+
+Type  : Fast 1100mV 0C Model Setup 'music_paly:u5|music:music|divider[0]'
+Slack : -0.051
+TNS   : -0.095
+
+Type  : Fast 1100mV 0C Model Hold 'music_paly:u5|avconf:avc|mI2C_CTRL_CLK'
+Slack : -0.277
+TNS   : -2.415
+
+Type  : Fast 1100mV 0C Model Hold 'music_paly:u5|music:music|clk_6m'
+Slack : -0.258
+TNS   : -1.484
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : -0.233
+TNS   : -3.294
+
+Type  : Fast 1100mV 0C Model Hold 'sysclk'
+Slack : -0.109
+TNS   : -0.349
+
+Type  : Fast 1100mV 0C Model Hold 'music_paly:u5|avconf:avc|LUT_INDEX[1]'
+Slack : -0.023
+TNS   : -0.055
+
+Type  : Fast 1100mV 0C Model Hold 'music_paly:u5|music:music|clk_4hz'
+Slack : 0.154
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'keyboard:u1|clk_in'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'music_paly:u5|music:music|divider[0]'
+Slack : 0.212
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'sysclk'
+Slack : -0.094
+TNS   : -2.937
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'music_paly:u5|music:music|divider[0]'
+Slack : -0.012
+TNS   : -0.023
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'music_paly:u5|avconf:avc|mI2C_CTRL_CLK'
+Slack : 0.028
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'music_paly:u5|music:music|clk_4hz'
+Slack : 0.064
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'keyboard:u1|clk_in'
+Slack : 0.112
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'music_paly:u5|music:music|clk_6m'
+Slack : 0.149
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'music_paly:u5|avconf:avc|LUT_INDEX[1]'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'u5|Audio_Controller|Audio_Clock|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 8.692
+TNS   : 0.000
+
+------------------------------------------------------------
